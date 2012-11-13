@@ -4,9 +4,8 @@ Java-Tuples
 Java tuple class that I made from scratch. Can concat, and they are iterable. It took me a 
 couple days to work out and make. The functionality is rather basic, and is a work in progress.  
 For example, I have not made a way to swap elements yet. Keep in mind this is non-standard functionality,
-so I would not recommend using this for commercial/performance critical projects. With that
-being said, here is how to use it. Package to import is com.Briggeman.Tuples.*
-One can email me at cbriggeman06@gmail.com with any questions or issues found.
+so I would not recommend using this for commercial/performance critical projects.Package to import is 
+com.Briggeman.Tuples.* One can email me at cbriggeman06@gmail.com with any questions or issues found.
 This repo is my netbeans project for the library. If project is imported, its name will be just Tuple. 
 
 
@@ -66,8 +65,6 @@ pairs, not their values. Iterator does not support remove(). Iterator class is n
 Also, I have added javadoc files and a .toString() method to class Pair.
 
 To Do:
-
--Post Netbeans project on github once I clean up source code.
 
 -Add exception handling in get() method.
 
