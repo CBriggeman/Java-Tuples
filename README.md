@@ -7,7 +7,8 @@ For example, I have not made a way to swap elements yet. Keep in mind this is no
 so I would not recommend using this for commercial/performance critical projects. With that
 being said, here is how to use it. Package to import is com.Briggeman.Tuples.*
 One can email me at cbriggeman06@gmail.com with any questions or issues found.
-This repo is my netbeans project for the library. The binaries are in dist.
+This repo is my netbeans project for the library. If project is imported, its name will be just Tuple. 
+
 
 To make a tuple:
 
@@ -55,35 +56,6 @@ Finally, I had to make a basic Pair template class. You can make a pair like so
 Basic constructor being Pair(T1 a, T2 b) with T1 and T2 being arbitrary types. You can then 
 get each element with geta() or getb(). Not really needed, but pairs are there if you would 
 like to use them. Since tuples are related to pairs, tuples can take pairs in their constructors.
-
-Full copy of example program. I use netbeans.
-
-
-import com.Briggeman.Tuples.*;
-/**
- *
- * @author Chris Briggeman
- */
-public class Testing 
-{
-  
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) 
-    {
-       String greet = "Hello ";
-       String greetAgain = "world!";
-       Tuple aTuple = new Tuple(greet);
-       Tuple anotherTuple = new Tuple(greetAgain);
-       aTuple.tupleCat(anotherTuple);
-       System.out.printf("%s\n", aTuple.get(1));
-
-       //calling iterator
-       TupleIterator it = aTuple.iterator();
-       
-    }// end main
-} // end class	   
 
 Update
 
